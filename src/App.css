@@ -1,0 +1,156 @@
+:root {
+  --mainYellow: #F4D911;
+  --lightGreen:#39f077;
+  --mainWhite:#f3f3f3;
+  --mainDark:#232528;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  background-color: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title {
+  letter-spacing:0.3rem;
+  text-transform: uppercase !important;
+}
+
+.text-yellow {
+  color: var(--mainYellow);
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
+
+/* hero section */
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+section h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #3aa44c;
+  text-align: left;
+  margin-bottom: 20px;
+}
+section p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+
+#hero .col {
+  justify-content: center; 
+  flex-direction: column;
+  display: flex;
+}
+#hero .img-col {
+  justify-content: flex-end; 
+  margin-top: 100px;
+}
+#hero img {
+  max-width: 130% !important;
+  width: 130%;
+}
+#hero .card {
+  box-shadow: 11px 7px 16px grey;
+  border: 0;
+  text-align: center;
+}
+#hero .icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.card {
+  box-shadow: 11px 7px 16px grey;
+  border: 0;
+  text-align: center;
+}
+
+
+#main-banner {
+  display: flex;
+  align-items: center;
+}
+
+.button-banner {
+  padding: 10px;
+  border-radius: 100px;
+  width: 200px;
+  color:white;
+  background: green;
+  overflow: hidden;
+  border: solid 5px green;
+  margin-bottom: 15px;
+}
+
+.button-banner:hover {
+  padding: 10px;
+  border-radius: 100px;
+  width: 200px;
+  color: green;
+  background: white;
+  overflow: hidden;
+  border: solid 5px green;
+}
+.myfooter {
+position: fixed;  
+padding: 10px 10px 0px 10px;
+bottom: 0;
+width: 100%;
+height: 60px;
+color: white !important;           
+}
+.picture {
+  width: 100%;
+  box-shadow: 11px 7px 16px grey;
+  border: 0;
+  opacity: .9;
+
+}
+.pwrapper {
+  padding: 15px 15px;
+}
+.wrapper {
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.openwrapper {
+  color: white;
+  width: 60vw;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+
+}
+.open {
+  width: 100%;
+  opacity: .8;
+
+}
