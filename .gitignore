@@ -25,3 +25,6 @@ yarn-error.log*
 
 #paypal id
 .env.development
+
+yarn.lock
+package-lock.json
