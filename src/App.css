@@ -121,7 +121,9 @@ padding: 10px 10px 0px 10px;
 bottom: 0;
 width: 100%;
 height: 60px;
-color: white !important;           
+color: white !important;   
+font-family: 'Montserrat', sans-serif !important;
+
 }
 .picture {
   width: 100%;
@@ -131,19 +133,24 @@ color: white !important;
 
 }
 .pwrapper {
+  margin: 0 auto;
+  text-align: center;
   padding: 15px 15px;
+  width: 60vw;
+  box-shadow: 11px 7px 16px grey;
+
 }
 .wrapper {
   text-align: center;
   align-items: center;
   margin: 0 auto;
-  width: 80vw;
+  width: 100%;
   margin: 0 auto;
 }
 
 .openwrapper {
   color: white;
-  width: 60vw;
+  width: 50%;
   margin: 0 auto;
   padding-bottom: 50px;
   margin-bottom: 20px;
@@ -152,5 +159,6 @@ color: white !important;
 .open {
   width: 100%;
   opacity: .8;
+  box-shadow: 11px 7px 16px grey;
 
 }
